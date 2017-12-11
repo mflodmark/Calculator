@@ -1,0 +1,96 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <title>Calculator</title>
+
+        <link href="Calculator.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="Calculator.js" defer> </script> 
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </head>
+    
+    <body>
+        <div class="jumbotron text-center" id="jumbo">    
+            <h1>Calculator</h1> 
+            <p>En vanlig miniräknare. Typ.<br></p>   
+        </div>
+
+        <div class="container-fluid">
+            <div id="my-container" class="text-center">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <div class="btn-group btn-group-lg">
+                            <button id="oneBtn" type="button" class="btn btn-primary">1</button>
+                            <button id="twoBtn" type="button" class="btn btn-primary">2</button>
+                            <button id="threeBtn" type="button" class="btn btn-primary">3</button>
+                            <button id="plusBtn" type="button" class="btn btn-primary">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">                                                  
+                    <div class="col-sm-12 text-center">
+                        <div class="btn-group btn-group-lg">
+                            <button id="fourBtn" type="button" class="btn btn-primary">4</button>
+                            <button id="fiveBtn" type="button" class="btn btn-primary">5</button>
+                            <button id="sixBtn" type="button" class="btn btn-primary">6</button>
+                            <button id="minusBtn" type="button" class="btn btn-primary">-</button>
+                        </div>
+                    </div>                                                  
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <div class="btn-group btn-group-lg">
+                            <button id="sevenBtn" type="button" class="btn btn-primary">7</button>
+                            <button id="eightBtn" type="button" class="btn btn-primary">8</button>
+                            <button id="nineBtn" type="button" class="btn btn-primary">9</button>
+                            <button id="divideBtn" type="button" class="btn btn-primary">/</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <div class="btn-group btn-group-lg">
+                            <button id="plusMinusBtn" type="button" class="btn btn-primary">+/-</button>
+                            <button id="zeroBtn" type="button" class="btn btn-primary">0</button>
+                            <button id="clearBtn" type="button" class="btn btn-primary">C</button>
+                            <button id="multiplyBtn" type="button" class="btn btn-primary">*</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <div class="btn-group btn-group-lg">
+                            <button id="resultBtn" type="button" class="btn btn-primary">Res</button>
+                            <button id="equalBtn" type="button" class="btn btn-primary">=</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">                   
+                    <div class="col-sm-12 text-right">
+                        <div id="info">
+                            <p><span id="firstNumber">?</span> <span id="action">?</span></p>
+                            <p id="secondNumber">?</p>                            
+                            <h2 id="result">0</h2>
+                        </div>
+                    </div>                                 
+                </div>
+                <div class="row">                   
+                    <div class="col-sm-12 text-right">
+                        <div id="div-calc">
+                            <dl id="calculations"></dl>
+                        </div>
+                    </div>                                 
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
